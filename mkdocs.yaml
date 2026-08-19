@@ -1,10 +1,99 @@
-site_name: Veritas
-docs_dir: docs
+site_name: Livraria Ágora AI Agent
+site_description: Documentação do produto, especificações e decisões de arquitetura do Bibliotecário Ágora.
+site_author: Natan Schons
 
 theme:
   name: material
+  language: pt-br
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+  palette:
+    # Alternância para modo claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep blue
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    # Alternância para modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
 
 plugins:
-    - search
-    - mermaid2
-    - mkdocstrings
+  - search
+  - mermaid2
+  - mkdocstrings
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: pt
+          default: true
+          name: Português
+          build: true
+        - locale: en
+          name: English
+          build: true
+          nav:
+            - Home (Setup & Harness): index.md
+            - Product:
+                - PRD (Product Requirements Document): prd.md
+            - Specifications (SPECs):
+                - Conversational Agent: specs/01-agente-conversacional.md
+                - Hybrid RAG and Search: specs/02-rag-hibrido.md
+                - Checkout and Approval: specs/03-checkout-aprovacao.md
+                - React Interface: specs/04-interface-react.md
+            - Architecture Decisions (ADRs):
+                - 001 - Backend with FastAPI and PydanticAI: adrs/001-fastapi-pydanticai-backend.md
+                - 002 - Hybrid Search with Qdrant: adrs/002-busca-hibrida-qdrant.md
+                - 003 - Separation of LLM and Transactional Data: adrs/003-separacao-llm-dados-transacionais.md
+                - 004 - Observability with Logfire: adrs/004-observabilidade-com-logfire.md
+
+extra:
+  alternate:
+    - name: Português
+      link: /
+      lang: pt
+    - name: English
+      link: /en/
+      lang: en
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home (Setup & Harness): index.md
+  - Produto:
+      - PRD (Product Requirements Document): prd.md
+  - Especificações (SPECs):
+      - Agente Conversacional: specs/01-agente-conversacional.md
+      - RAG Híbrido e Busca: specs/02-rag-hibrido.md
+      - Checkout e Aprovação: specs/03-checkout-aprovacao.md
+      - Interface React: specs/04-interface-react.md
+  - Decisões de Arquitetura (ADRs):
+      - 001 - Backend com FastAPI e PydanticAI: adrs/001-fastapi-pydanticai-backend.md
+      - 002 - Busca Híbrida com Qdrant: adrs/002-busca-hibrida-qdrant.md
+      - 003 - Separação de LLM e Dados Transacionais: adrs/003-separacao-llm-dados-transacionais.md
+      - 004 - Observabilidade com Logfire: adrs/004-observabilidade-com-logfire.md
