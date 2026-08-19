@@ -1,0 +1,35 @@
+name: cicd
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.14.2'
+
+      - name: Install dependencies with uv
+        run: uv sync
+
+      - name: Run my test routine with uv
+        run: uv run pytest tests -v
+
+      - name: Deploy documentation
+        run: uv run mkdocs gh-deploy --force
