@@ -14,7 +14,6 @@ theme:
     - search.suggest
     - search.highlight
   palette:
-    # Alternância para modo claro
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: deep blue
@@ -22,7 +21,6 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Mudar para modo escuro
-    # Alternância para modo escuro
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: deep purple
