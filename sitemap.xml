@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/prd/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/prd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/prd/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/adrs/001-fastapi-pydanticai-backend/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/adrs/001-fastapi-pydanticai-backend/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/adrs/001-fastapi-pydanticai-backend/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/adrs/002-busca-hibrida-qdrant/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/adrs/002-busca-hibrida-qdrant/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/adrs/002-busca-hibrida-qdrant/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/adrs/003-separacao-llm-dados-transacionais/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/adrs/003-separacao-llm-dados-transacionais/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/adrs/003-separacao-llm-dados-transacionais/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/adrs/004-observabilidade-com-logfire/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/adrs/004-observabilidade-com-logfire/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/adrs/004-observabilidade-com-logfire/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/specs/01-agente-conversacional/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/specs/01-agente-conversacional/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/specs/01-agente-conversacional/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/specs/02-rag-hibrido/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/specs/02-rag-hibrido/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/specs/02-rag-hibrido/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/specs/03-checkout-aprovacao/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/specs/03-checkout-aprovacao/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/specs/03-checkout-aprovacao/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/specs/04-interface-react/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/specs/04-interface-react/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/specs/04-interface-react/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/en/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/en/prd/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/prd/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/prd/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/en/adrs/001-fastapi-pydanticai-backend/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/adrs/001-fastapi-pydanticai-backend/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/adrs/001-fastapi-pydanticai-backend/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/en/adrs/002-busca-hibrida-qdrant/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/adrs/002-busca-hibrida-qdrant/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/adrs/002-busca-hibrida-qdrant/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/en/adrs/003-separacao-llm-dados-transacionais/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/adrs/003-separacao-llm-dados-transacionais/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/adrs/003-separacao-llm-dados-transacionais/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/en/adrs/004-observabilidade-com-logfire/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/adrs/004-observabilidade-com-logfire/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/adrs/004-observabilidade-com-logfire/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/en/specs/01-agente-conversacional/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/specs/01-agente-conversacional/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/specs/01-agente-conversacional/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/en/specs/02-rag-hibrido/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/specs/02-rag-hibrido/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/specs/02-rag-hibrido/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/en/specs/03-checkout-aprovacao/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/specs/03-checkout-aprovacao/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/specs/03-checkout-aprovacao/"/>
+    </url>
+    <url>
+        <loc>https://schonsnatan.github.io/livraria-agora/en/specs/04-interface-react/</loc>
+        <lastmod>2026-08-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://schonsnatan.github.io/livraria-agora/en/specs/04-interface-react/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://schonsnatan.github.io/livraria-agora/specs/04-interface-react/"/>
+    </url>
+</urlset>
