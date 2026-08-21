@@ -2,6 +2,7 @@ site_name: Livraria Ágora AI Agent
 site_url: https://schonsnatan.github.io/livraria-agora/
 site_description: Documentação do produto, especificações e decisões de arquitetura do Bibliotecário Ágora.
 site_author: Natan Schons
+
 theme:
   name: material
   language: pt-BR
