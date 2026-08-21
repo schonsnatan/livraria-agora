@@ -59,14 +59,6 @@ plugins:
                 - 003 - Separation of LLM and Transactional Data: adrs/003-separacao-llm-dados-transacionais.md
                 - 004 - Observability with Logfire: adrs/004-observabilidade-com-logfire.md
 
-extra:
-  alternate:
-    - name: Português
-      link: /
-      lang: pt
-    - name: English
-      link: /en/
-      lang: en
 
 markdown_extensions:
   - pymdownx.highlight:
